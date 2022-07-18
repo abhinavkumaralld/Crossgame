@@ -17,21 +17,22 @@
 }
 
 #container{
-      border:2px solid red;
       margin:40px 55px 2px 2px;
       padding:2px 2px 2px 40px; 
       display:flex;
       justify-content:center;
       align-items:center;
+      position: relative;
 }
 #cont{
       display:grid;
       grid-template-columns:auto auto auto;
       
+      
 }
 #cont > *{
       list-style-type: none;
-      font-size: 100px;
+      font-size: 75px;
       width: 130px;
       height: 130px;
       text-align: center;
@@ -39,7 +40,6 @@
       border:2px solid rgb(10, 236, 44);
 }
 #celebrate{
-      border:2px solid rgb(7, 27, 10);
       width:180px;
       height:180px;
       margin:auto;
@@ -47,7 +47,19 @@
       
 }
 #celebrate img{
-      visibility: visible;
+      margin:12px 0px 0px 0px;
+      visibility: hidden;
       width:200px;
       height:200px;
+}
+#turn {
+      margin:12px 0px 14px 0px;
+}
+#line{
+      color: aliceblue;
+      opacity: 0;
+      background-color: rgb(228, 213, 47);
+      height: 8px;
+      width: 1px;
+      position: absolute;
 }
