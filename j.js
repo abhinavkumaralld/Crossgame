@@ -61,6 +61,8 @@ Array.from(document.getElementsByClassName("ax")).forEach((element) => {
 })
 reset=()=>{
       count=0;
+      turn="x";
+      document.getElementById("turn").innerHTML="Abhinav's turn";
       var image=document.getElementById("jeetgya");
       image.style.visibility="hidden";
       var line=document.getElementById("line");
